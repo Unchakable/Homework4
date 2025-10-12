@@ -36,7 +36,7 @@ public class UserController {
             return ResponseEntity.ok(userService.getUserById(id));
         } catch (Exception e) {
             log.error("Error getting the user by id /api/users/{}", id);
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e);
         }
     }
 
