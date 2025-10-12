@@ -34,7 +34,7 @@ public class UserService {
 
     private User toUser(UserRequestDTO userRequestDTO) {
         User user = new User();
-        user.setName(userRequestDTO.getUsername());
+        user.setName(userRequestDTO.getUserName());
         user.setEmail(userRequestDTO.getEmail());
         user.setAge(userRequestDTO.getAge());
         return user;
@@ -43,7 +43,7 @@ public class UserService {
 
     public ResponseEntity<Void> createUser(UserRequestDTO userCreateDTO) {
         User user = new User();
-        user.setName(userCreateDTO.getUsername());
+        user.setName(userCreateDTO.getUserName());
         user.setEmail(userCreateDTO.getEmail());
         user.setAge(userCreateDTO.getAge());
         userRepository.save(user);
@@ -66,7 +66,7 @@ public class UserService {
     public ResponseEntity<Void> updateUser(int id, UserRequestDTO userRequestDTO) {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("User not found"));
-        user.setName(userRequestDTO.getUsername());
+        user.setName(userRequestDTO.getUserName());
         user.setEmail(userRequestDTO.getEmail());
         user.setAge(userRequestDTO.getAge());
         userRepository.save(user);

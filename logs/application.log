@@ -182,3 +182,172 @@
 2025-10-12 15:46:20 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-12 15:46:20 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-10-12 15:46:20 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-12 15:50:37 - INFO  - c.e.Homework4.Homework4Application - Starting Homework4Application using Java 25 with PID 18996 (W:\Aston\Homework4\target\classes started by bodun in W:\Aston\Homework4)
+2025-10-12 15:50:37 - DEBUG - c.e.Homework4.Homework4Application - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-12 15:50:37 - INFO  - c.e.Homework4.Homework4Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-12 15:50:38 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12 15:50:38 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-10-12 15:50:38 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-12 15:50:38 - INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-12 15:50:38 - INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-12 15:50:38 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-12 15:50:38 - INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1400 ms
+2025-10-12 15:50:39 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-12 15:50:39 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-12 15:50:39 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6bd92538
+2025-10-12 15:50:39 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-12 15:50:40 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 15:50:41 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-12 15:50:41 - INFO  - c.e.Homework4.Homework4Application - Started Homework4Application in 4.521 seconds (process running for 4.98)
+2025-10-12 15:54:16 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-12 15:54:16 - INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-12 15:54:16 - INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-12 15:54:16 - WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2025-10-12 15:54:46 - WARN  - o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries]
+2025-10-12 15:55:13 - DEBUG - org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (age, created_at, email, name) 
+    values
+        (?, ?, ?, ?)
+2025-10-12 15:55:13 - WARN  - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-10-12 15:55:13 - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение NULL в столбце "name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (3, 20, 2025-10-12 15:55:13.883981, 123456789@mail.ru, null).
+2025-10-12 15:55:13 - ERROR - c.e.H.controller.UserController - user creation error, name = null
+2025-10-12 15:55:49 - DEBUG - org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (age, created_at, email, name) 
+    values
+        (?, ?, ?, ?)
+2025-10-12 15:55:49 - WARN  - o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23502
+2025-10-12 15:55:49 - ERROR - o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: значение NULL в столбце "name" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (4, 20, 2025-10-12 15:55:49.802866, 123456789@mail.ru, null).
+2025-10-12 15:55:49 - ERROR - c.e.H.controller.UserController - user creation error, name = null
+2025-10-12 15:56:31 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-12 15:56:31 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-12 15:56:31 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 15:56:31 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-12 15:56:31 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-12 15:57:41 - INFO  - c.e.Homework4.Homework4Application - Starting Homework4Application using Java 25 with PID 3960 (W:\Aston\Homework4\target\classes started by bodun in W:\Aston\Homework4)
+2025-10-12 15:57:41 - DEBUG - c.e.Homework4.Homework4Application - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-12 15:57:41 - INFO  - c.e.Homework4.Homework4Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-12 15:57:41 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12 15:57:41 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-10-12 15:57:42 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-12 15:57:42 - INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-12 15:57:42 - INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-12 15:57:42 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-12 15:57:42 - INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
+2025-10-12 15:57:42 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-12 15:57:42 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-12 15:57:43 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4044589a
+2025-10-12 15:57:43 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-12 15:57:43 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 15:57:44 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-12 15:57:44 - INFO  - c.e.Homework4.Homework4Application - Started Homework4Application in 3.759 seconds (process running for 4.095)
+2025-10-12 15:57:57 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-12 15:57:57 - INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-12 15:57:57 - INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-12 15:57:57 - DEBUG - org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (age, created_at, email, name) 
+    values
+        (?, ?, ?, ?)
+2025-10-12 15:58:15 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-12 15:58:15 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-12 15:58:15 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 15:58:15 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-12 15:58:15 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-12 15:58:18 - INFO  - c.e.Homework4.Homework4Application - Starting Homework4Application using Java 25 with PID 1716 (W:\Aston\Homework4\target\classes started by bodun in W:\Aston\Homework4)
+2025-10-12 15:58:18 - DEBUG - c.e.Homework4.Homework4Application - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-12 15:58:18 - INFO  - c.e.Homework4.Homework4Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-12 15:58:18 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-12 15:58:18 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2025-10-12 15:58:19 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-12 15:58:19 - INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-12 15:58:19 - INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-12 15:58:19 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-12 15:58:19 - INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1095 ms
+2025-10-12 15:58:19 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-12 15:58:19 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-12 15:58:19 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36ad5f2a
+2025-10-12 15:58:19 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-12 15:58:20 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 15:58:21 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-12 15:58:21 - INFO  - c.e.Homework4.Homework4Application - Started Homework4Application in 3.576 seconds (process running for 3.906)
+2025-10-12 15:58:55 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-12 15:58:55 - INFO  - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-12 15:58:55 - INFO  - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-12 15:58:55 - DEBUG - org.hibernate.SQL - 
+    insert 
+    into
+        users
+        (age, created_at, email, name) 
+    values
+        (?, ?, ?, ?)
+2025-10-12 15:59:50 - INFO  - c.e.H.controller.UserController - PUT /api/users/6
+2025-10-12 15:59:50 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-12 15:59:50 - DEBUG - org.hibernate.SQL - 
+    update
+        users 
+    set
+        age=?,
+        created_at=?,
+        email=?,
+        name=? 
+    where
+        id=?
+2025-10-12 16:00:08 - INFO  - c.e.H.controller.UserController - DELETE /api/users/5
+2025-10-12 16:00:08 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-12 16:00:08 - DEBUG - org.hibernate.SQL - 
+    delete 
+    from
+        users 
+    where
+        id=?
+2025-10-12 16:00:16 - INFO  - c.e.H.controller.UserController - DELETE all users
+2025-10-12 16:00:16 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2025-10-12 16:00:16 - DEBUG - org.hibernate.SQL - 
+    delete 
+    from
+        users 
+    where
+        id=?
+2025-10-12 16:00:34 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-12 16:00:34 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-12 16:00:34 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-12 16:00:34 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-12 16:00:34 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

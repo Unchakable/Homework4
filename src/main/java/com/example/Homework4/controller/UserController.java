@@ -24,7 +24,7 @@ public class UserController {
         try {
             return userService.createUser(userDTO);
         } catch (Exception e) {
-            log.error("user creation error, name = {}", userDTO.getUsername());
+            log.error("user creation error, name = {}", userDTO.getUserName());
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e);
         }
     }
