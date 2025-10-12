@@ -26,7 +26,7 @@ public class UserService {
     private UserResponseDTO toDTO(User user) {
         UserResponseDTO userResponseDTO = new UserResponseDTO();
         userResponseDTO.setId(user.getId());
-        userResponseDTO.setUsername(user.getName());
+        userResponseDTO.setUserName(user.getName());
         userResponseDTO.setEmail(user.getEmail());
         userResponseDTO.setAge(user.getAge());
         return userResponseDTO;
