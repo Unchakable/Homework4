@@ -163,3 +163,187 @@
 2025-10-26 13:57:43 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-26 13:57:43 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-10-26 13:57:43 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-26 14:30:05 - INFO  - c.e.Homework4.Homework4Application - Starting Homework4Application using Java 25 with PID 23256 (W:\Aston\Homework4\target\classes started by bodun in W:\Aston\Homework4)
+2025-10-26 14:30:05 - DEBUG - c.e.Homework4.Homework4Application - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-26 14:30:05 - INFO  - c.e.Homework4.Homework4Application - No active profile set, falling back to 1 default profile: "default"
+2025-10-26 14:30:06 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-26 14:30:06 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-10-26 14:30:06 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-26 14:30:06 - INFO  - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-26 14:30:06 - INFO  - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-26 14:30:06 - INFO  - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-26 14:30:06 - INFO  - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1123 ms
+2025-10-26 14:30:07 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-26 14:30:07 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-26 14:30:07 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b332439
+2025-10-26 14:30:07 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-26 14:30:08 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:30:08 - INFO  - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-10-26 14:30:08 - INFO  - c.e.Homework4.Homework4Application - Started Homework4Application in 3.683 seconds (process running for 4.013)
+2025-10-26 14:30:17 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-26 14:30:17 - INFO  - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-26 14:30:17 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:30:17 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-26 14:30:17 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-26 14:46:29 - INFO  - c.e.H.Homework4ApplicationTests - Starting Homework4ApplicationTests using Java 25 with PID 16632 (started by bodun in W:\Aston\Homework4)
+2025-10-26 14:46:29 - DEBUG - c.e.H.Homework4ApplicationTests - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-26 14:46:29 - INFO  - c.e.H.Homework4ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-10-26 14:46:30 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-26 14:46:30 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2025-10-26 14:46:32 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-26 14:46:32 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-26 14:46:32 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63381a51
+2025-10-26 14:46:32 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-26 14:46:34 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:46:35 - INFO  - c.e.H.Homework4ApplicationTests - Started Homework4ApplicationTests in 6.31 seconds (process running for 8.799)
+2025-10-26 14:46:36 - INFO  - o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.Homework4.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-10-26 14:46:36 - INFO  - o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.Homework4.Homework4Application for test class com.example.Homework4.controller.UserControllerTest
+2025-10-26 14:46:36 - INFO  - o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2025-10-26 14:46:36 - INFO  - o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2025-10-26 14:46:36 - INFO  - o.testcontainers.DockerClientFactory - Testcontainers version: 1.21.3
+2025-10-26 14:46:36 - INFO  - o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-10-26 14:46:36 - INFO  - o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-10-26 14:46:36 - INFO  - o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2025-10-26 14:46:36 - INFO  - o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.4.0
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 7943 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-10-26 14:46:36 - INFO  - tc.testcontainers/ryuk:0.12.0 - Creating container for image: testcontainers/ryuk:0.12.0
+2025-10-26 14:46:37 - INFO  - tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 is starting: 9e9869c37761ab2b08587a57335e660edb30b7fdf1a5c79e9870fa13e9810c64
+2025-10-26 14:46:37 - INFO  - tc.testcontainers/ryuk:0.12.0 - Container testcontainers/ryuk:0.12.0 started in PT0.5943125S
+2025-10-26 14:46:37 - INFO  - o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-10-26 14:46:37 - INFO  - o.testcontainers.DockerClientFactory - Checking the system...
+2025-10-26 14:46:37 - INFO  - o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2025-10-26 14:46:37 - INFO  - tc.postgres:15-alpine - Creating container for image: postgres:15-alpine
+2025-10-26 14:46:37 - INFO  - tc.postgres:15-alpine - Container postgres:15-alpine is starting: 0e3c1887abe9fe5e1eeaec5336a9cfdb7710e2c1c9c9a09b93c24cd29909fe8c
+2025-10-26 14:46:39 - INFO  - tc.postgres:15-alpine - Container postgres:15-alpine started in PT1.8226345S
+2025-10-26 14:46:39 - INFO  - tc.postgres:15-alpine - Container is started (JDBC URL: jdbc:postgresql://localhost:60975/test?loggerLevel=OFF)
+2025-10-26 14:46:39 - INFO  - c.e.H.controller.UserControllerTest - Starting UserControllerTest using Java 25 with PID 16632 (started by bodun in W:\Aston\Homework4)
+2025-10-26 14:46:39 - DEBUG - c.e.H.controller.UserControllerTest - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-26 14:46:39 - INFO  - c.e.H.controller.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-10-26 14:46:39 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-26 14:46:39 - INFO  - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2025-10-26 14:46:39 - INFO  - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-26 14:46:39 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-10-26 14:46:39 - INFO  - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2f5288cd
+2025-10-26 14:46:39 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-10-26 14:46:39 - DEBUG - org.hibernate.SQL - 
+    set client_min_messages = WARNING
+2025-10-26 14:46:39 - DEBUG - org.hibernate.SQL - 
+    drop table if exists users cascade
+2025-10-26 14:46:39 - DEBUG - org.hibernate.SQL - 
+    create table users (
+        age integer not null,
+        id integer generated by default as identity,
+        created_at timestamp(6) not null,
+        email varchar(255) not null,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-10-26 14:46:39 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:46:39 - INFO  - o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-10-26 14:46:39 - INFO  - o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-10-26 14:46:39 - INFO  - o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-10-26 14:46:39 - INFO  - c.e.H.controller.UserControllerTest - Started UserControllerTest in 0.579 seconds (process running for 13.049)
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - GET all users
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - PUT /api/users/1
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    update
+        users 
+    set
+        age=?,
+        created_at=?,
+        email=?,
+        name=? 
+    where
+        id=?
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - Get /api/users/1
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - Get /api/users/1
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - DELETE all users
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    delete 
+    from
+        users 
+    where
+        id=?
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0
+2025-10-26 14:46:40 - INFO  - c.e.H.controller.UserController - Get /api/users/1
+2025-10-26 14:46:40 - DEBUG - org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.age,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.name 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-10-26 14:46:40 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:46:40 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-26 14:46:40 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-10-26 14:46:40 - INFO  - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-26 14:46:40 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-10-26 14:46:40 - INFO  - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.

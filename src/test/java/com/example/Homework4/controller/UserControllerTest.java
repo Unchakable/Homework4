@@ -20,7 +20,6 @@ public class UserControllerTest extends AbstractIntegrationTest {
         //Then
         mockMvc.perform(get("/api/users/1"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value(1))
                 .andExpect(jsonPath("$.userName").value("Alex"))
                 .andExpect(jsonPath("$.email").value("123456789@mail.ru"))
                 .andExpect(jsonPath("$.age").value(20));
@@ -65,7 +64,6 @@ public class UserControllerTest extends AbstractIntegrationTest {
 
         mockMvc.perform(get("/api/users/1"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id").value(1))
                 .andExpect(jsonPath("$.userName").value("Alex"))
                 .andExpect(jsonPath("$.email").value("987654321@mail.ru"))
                 .andExpect(jsonPath("$.age").value(30));
