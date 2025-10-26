@@ -1,12 +1,13 @@
 package com.example.Homework4.model.dto;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
 
 @Data
 @Builder
@@ -21,6 +22,6 @@ public class UserRequestDTO {
     @NotBlank(message = "Email is required")
     private String email;
 
-    @NotBlank(message = "Age is required")
+    @Positive
     private int age;
 }

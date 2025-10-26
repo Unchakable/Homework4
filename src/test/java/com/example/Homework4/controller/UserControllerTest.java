@@ -30,7 +30,7 @@ public class UserControllerTest extends AbstractIntegrationTest {
     void shouldReturnBadRequestIfUserNotFound() throws Exception {
         //then
         mockMvc.perform(get("/api/users/1"))
-                .andExpect(status().isBadRequest());
+                .andExpect(status().isNotFound());
     }
 
     @Test
